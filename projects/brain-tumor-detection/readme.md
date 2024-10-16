@@ -1,1 +1,1 @@
-
+#This directory contains all the images of brain MRI scan which has NO tumor
