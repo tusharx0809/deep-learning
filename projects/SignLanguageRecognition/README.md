@@ -54,4 +54,4 @@
 
 <h3>Confusion Matrix</h3>
 
-![ConfusionMatrix](ConfustionMatrix.JPG)
+![ConfusionMatrix](ConfusionMatrix.JPG)
