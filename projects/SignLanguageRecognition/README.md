@@ -1,6 +1,6 @@
 <h1><em>Sign Language Recognition Model Using TensorFlow Deep learning library and Scikit-learn</em>
 
-<a href="https://www.kaggle.com/datasets/grassknoted/asl-alphabet"><h2>American Sign Language Dataset</h2></a>
+<h2><a href="https://www.kaggle.com/datasets/grassknoted/asl-alphabet">American Sign Language Dataset</a></h2>
 
 
 <h2>This project demonstrates the development and implementation of a deep learning model for recognizing American Sign Language (ASL) gestures. Using TensorFlow and Scikit-learn, the model is trained on a dataset of hand sign images, with the goal of achieving high classification accuracy for real-time applications in sign language recognition.</h2>
