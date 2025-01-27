@@ -23,8 +23,8 @@
 <h3>Results</h3>
 <ul>
   <li>The model was trained on a total of 73,950 images and tested on 13,050 images.</li>
-  <li>Training Accuracy: 98.21%</li>
-  <li>Test Accuracy: 98.92%</li>
+  <li>Training Accuracy: <strong>98.33%</strong></li>
+  <li>Test Accuracy: <strong>99.27%</strong></li>
   <li>The model demonstrated excellent performance, as indicated by the high accuracy on both the training and test sets.</li>
 </ul>
 
