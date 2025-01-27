@@ -23,8 +23,8 @@
 <h3>Results</h3>
 <ul>
   <li>The model was trained on a total of 73,950 images and tested on 13,050 images.</li>
-  <li>Training Accuracy: <strong>98.33%</strong></li>
-  <li>Test Accuracy: <strong>99.27%</strong></li>
+  <li>Training Accuracy: <strong>97.55%</strong></li>
+  <li>Test Accuracy: <strong>99.72%</strong></li>
   <li>The model demonstrated excellent performance, as indicated by the high accuracy on both the training and test sets.</li>
 </ul>
 
@@ -36,7 +36,7 @@
 
 <h3>Key Highlights</h3>
 <ul>
-  <li>High Accuracy: Achieved <strong><em>98.33%</em></strong> accuracy on the training set and <strong><em>99.27%</em></strong> on the test set.</li>
+  <li>High Accuracy: Achieved <strong><em>97.55%</em></strong> accuracy on the training set and <strong><em>99.72%</em></strong> on the test set.</li>
   <li>Data Augmentation: Applied techniques that enhanced model generalization.</li>
   <li>Overfitting Prevention: Dropout layers and data augmentation contributed to reduced overfitting.</li>
   <li>Evaluation Metrics: Comprehensive analysis using confusion matrix and classification report.</li>
