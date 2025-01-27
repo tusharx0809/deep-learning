@@ -36,7 +36,7 @@
 
 <h3>Key Highlights</h3>
 <ul>
-  <li>High Accuracy: Achieved 98.21% accuracy on the training set and 98.92% on the test set.</li>
+  <li>High Accuracy: Achieved <strong><em>98.33%</em></strong> accuracy on the training set and <strong><em>99.27%</em></strong> on the test set.</li>
   <li>Data Augmentation: Applied techniques that enhanced model generalization.</li>
   <li>Overfitting Prevention: Dropout layers and data augmentation contributed to reduced overfitting.</li>
   <li>Evaluation Metrics: Comprehensive analysis using confusion matrix and classification report.</li>
