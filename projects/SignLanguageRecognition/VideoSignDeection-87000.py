@@ -5,7 +5,7 @@ import os
 import pathlib
 
 
-data_directory = pathlib.Path('D:/college/Python/github/deep-learning/projects/SignLanguageRecognition/dataset-200000/asl_alphabet_train');
+data_directory = pathlib.Path('D:/college/Python/github/deep-learning/projects/SignLanguageRecognition/dataset-87000/asl_alphabet_train');
 folder_names = [name for name in os.listdir(data_directory) if os.path.isdir(os.path.join(data_directory, name))]
 folder_names = sorted(folder_names, key=lambda x: (x[0].islower(), x))
 alphabet_labels_dict = {
@@ -13,7 +13,7 @@ alphabet_labels_dict = {
 }
 alphabets_dict = {value: key for key, value in alphabet_labels_dict.items()}
 
-model = tf.keras.models.load_model('D:/college/Python/github/deep-learning/projects/SignLanguageRecognition/SignLanguageRecognition-200000.keras')
+model = tf.keras.models.load_model('D:/college/Python/github/deep-learning/projects/SignLanguageRecognition/SignLanguageRecognition-87000.keras')
 
 cap = cv2.VideoCapture(0)
 
@@ -22,7 +22,7 @@ desired_height = 1080
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, desired_width)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, desired_height)
 
-square_size = 500   #Side length of the square
+square_size = 400   #Side length of the square
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 x_offset = -300
